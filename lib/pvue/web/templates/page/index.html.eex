@@ -1,3 +1,7 @@
 <div id="vue-playground">
   {{ message }} 
 </div>
+
+<div id="main">
+  <hello></hello>
+</div>
