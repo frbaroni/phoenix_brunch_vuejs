@@ -19,3 +19,10 @@ import "phoenix_html"
 // paths "./socket" or full ones "web/static/js/socket".
 
 // import socket from "./socket"
+
+new Vue({
+  el: '#vue-playground',
+  data: {
+    message: 'Hello to Vue World!'
+  }
+});
