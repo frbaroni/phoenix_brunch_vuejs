@@ -29,6 +29,7 @@ new Vue({
 });
 
 import Hello from './vue/hello.vue'
+import World from './vue/world.vue'
 
 new Vue({ 
   el: '#main',
