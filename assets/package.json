@@ -8,7 +8,8 @@
   "dependencies": {
     "phoenix": "file:../deps/phoenix",
     "phoenix_html": "file:../deps/phoenix_html",
-    "vue": "^2.3.0"
+    "vue": "^2.3.0",
+    "vue-router": "^2.7.0"
   },
   "devDependencies": {
     "babel-brunch": "6.0.6",
