@@ -58,8 +58,8 @@ exports.config = {
 
   npm: {
     enabled: true,
-    globals: {
-      Vue: 'vue/dist/vue.common.js'
+    aliases: {
+      'vue': 'vue/dist/vue.common.js'
     }
   }
 };
