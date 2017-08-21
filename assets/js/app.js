@@ -35,3 +35,21 @@ new Vue({
   el: '#main',
   components: { Hello }
 });
+
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+const routes = [
+  {path: '/', component: Hello},
+  {path: '/my-hello', component: Hello},
+  {path: '/my-world', component: World}
+]
+
+const router = new VueRouter({
+  routes
+})
+
+const app = new Vue({
+  router
+}).$mount('#router-main')

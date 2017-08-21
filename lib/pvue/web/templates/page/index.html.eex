@@ -5,3 +5,12 @@
 <div id="main">
   <hello></hello>
 </div>
+
+<h1>Vue-Router playground</h1>
+
+<div id="router-main">
+  <router-link to="/my-hello">Hello</router-link>
+  |
+  <router-link to="/my-world">World</router-link>
+  <router-view></router-view>
+</div>
